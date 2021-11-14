@@ -27,11 +27,13 @@ li a{
 	padding: 14px 18px;
 	text-decoration: none;
 	border: 1px solid black;
+	border-radius: 12px;
 }
 
 li a:hover:not(.active){
 	background-color: yellow;
 	color: black;
+	animation: fadeIn 0.5s;
 }
 
 .active{
